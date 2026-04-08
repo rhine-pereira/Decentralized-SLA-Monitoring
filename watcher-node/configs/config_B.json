@@ -1,0 +1,7 @@
+{
+  "node_id": "B",
+  "urls": ["https://frcrce.ac.in/"],
+  "interval_seconds": 5,
+  "log_dir": "logs",
+  "key_dir": "keys"
+}

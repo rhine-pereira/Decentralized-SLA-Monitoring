@@ -1,0 +1,22 @@
+# Aggregator Configuration
+watcher_logs_dir: "../watcher-node/logs"
+time_window_seconds: 60
+database_path: "./db/aggregator.db"
+output_dir: "./output"
+poll_interval_seconds: 10
+
+api:
+  port: 8888
+
+blockchain:
+  # Set to true to anchor Merkle roots on-chain
+  enabled: false
+  
+  # Your Ethereum RPC provider (Alchemy, Infura, etc.)
+  rpc_url: "https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY"
+  
+  # The private key of the account that will submit roots (KEEP THIS SECRET)
+  private_key: "0xYOUR_PRIVATE_KEY"
+  
+  # The address of the deployed SLARootRegistry contract
+  contract_address: "0x4e275FfF9D8cFB27Fd6244Bc7eA203ad6d1a5ea7"

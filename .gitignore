@@ -1,0 +1,32 @@
+aggregator/config.yaml
+
+# Binaries / Build Artifacts
+*.exe
+aggregator/aggregator
+watcher-node/watcher-node
+bin/
+
+# Databases
+aggregator/db/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Data & Logs
+watcher-node/logs/
+aggregator/output/
+aggregator/*.json
+*.jsonl
+
+# Keys (Watcher Identities)
+watcher-node/keys/
+
+# Dependency directories
+vendor/
+
+# IDEs
+.vscode/
+.idea/
+
+contracts/artifacts

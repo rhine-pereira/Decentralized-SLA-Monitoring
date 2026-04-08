@@ -1,0 +1,6 @@
+logs/
+keys/
+*.log
+*.exe
+*.dll
+bin/
