@@ -1,7 +1,10 @@
 {
   "node_id": "E",
-  "urls": ["https://httpbin.org/get", "https://example.com/"],
-  "interval_seconds": 5,
+  "urls": [
+    "https://httpbin.org/get",
+    "https://example.com/"
+  ],
+  "interval_seconds": 10,
   "log_dir": "logs",
   "key_dir": "keys"
 }

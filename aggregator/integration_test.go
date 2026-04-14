@@ -25,7 +25,7 @@ func TestIntegrationLoadAndBuild(t *testing.T) {
 	for rows.Next() {
 		var b int64
 		rows.Scan(&b)
-		if err := BuildMerkleForBucket(db, b, "./output"); err != nil {
+		if err := BuildMerkleForBucket(db, b, "./output", nil, ""); err != nil {
 			t.Fatalf("build bucket %d: %v", b, err)
 		}
 	}

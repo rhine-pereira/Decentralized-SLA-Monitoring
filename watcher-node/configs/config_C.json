@@ -1,7 +1,10 @@
 {
   "node_id": "C",
-  "urls": ["http://localhost:8080","http://localhost:8888"],
-  "interval_seconds": 5,
+  "urls": [
+    "http://localhost:8080",
+    "http://localhost:8888"
+  ],
+  "interval_seconds": 10,
   "log_dir": "logs",
   "key_dir": "keys"
 }

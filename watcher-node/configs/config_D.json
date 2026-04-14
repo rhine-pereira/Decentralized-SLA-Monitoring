@@ -1,7 +1,9 @@
 {
   "node_id": "D",
-  "urls": ["https://google.com", "https://cypvasai.org"],
-  "interval_seconds": 5,
+  "urls": [
+    "https://google.com"
+  ],
+  "interval_seconds": 10,
   "log_dir": "logs",
   "key_dir": "keys"
 }
